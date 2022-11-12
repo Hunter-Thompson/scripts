@@ -1,2 +1,2 @@
-db.getMongo().setReadPref('primaryPreferred')
 db.getCollectionNames().join('\n')
+db.getMongo().setReadPref('primaryPreferred')
